@@ -60,6 +60,7 @@ main {
   grid-template-columns: 1fr 1fr;
   grid-gap: 0 50px;
   padding: 50px;
+  font-size: 1.5em;
 }
 
 h3 {
@@ -76,25 +77,26 @@ li {
   margin: 0 10px;
 }
 
-a {
-  color: #42b983;
+button, textarea {
+  background: var(--foregroud);
+  color: var(--blue);
 }
 
 button {
+  font-size: .7em;
   border: 0;
   padding: 10px 30px;
   cursor: pointer;
 }
 
-button:hover {
-  background: #000;
-  color: #fff;
-}
-
 textarea {
+  font-size: .8em;
+  padding: 25px;
   width: 100%;
   min-height: 200px;
   height: 100%;
+  background: transparent;
+  border: 5px solid var(--gray);
 }
 
 code {
