@@ -20,7 +20,7 @@ export default {
 }
 
 :root {
-  --background: #f5f5f5;
+  --background: #ffffff;
   --foregroud: #0e192c;
   --blue: #007fd4;
   --gray: #e9e9e9;

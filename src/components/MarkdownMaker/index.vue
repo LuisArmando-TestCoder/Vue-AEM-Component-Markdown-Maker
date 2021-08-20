@@ -96,7 +96,13 @@ textarea {
   min-height: 200px;
   height: 100%;
   background: transparent;
-  border: 5px solid var(--gray);
+  border: 2px solid var(--gray);
+  outline: none;
+  transition: .15s;
+}
+
+textarea:focus {
+  border-color: var(--blue);
 }
 
 code {
