@@ -42,7 +42,7 @@ inputTriggers.set("Paste the code from dialog .xml", {
   [PROPERTIES_TABLE]: ({ value }) => {
     try {
       const propertiesElements = [
-        ...template(value).querySelectorAll("items [name]"),
+        ...template(`<body>${value}</body>`).querySelectorAll("items [name]"),
       ];
 
       return propertiesElements
