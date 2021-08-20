@@ -1,5 +1,8 @@
 # vue-aem-component-markdown-maker
 
+## Netlify link
+https://vue-aem-component-markdown-maker.netlify.app/
+
 ## Project setup
 ```
 npm install
