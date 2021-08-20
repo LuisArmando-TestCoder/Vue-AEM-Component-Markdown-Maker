@@ -1,6 +1,11 @@
 <template>
   <h1>Vue AEM Component Markdown Maker</h1>
   <MarkdownMaker/>
+  <aside>
+    <a href="https://github.com/LuisArmando-TestCoder/Vue-AEM-Component-Markdown-Maker">
+      GitHub repository
+    </a>
+  </aside>
 </template>
 
 <script>
@@ -26,6 +31,11 @@ export default {
   --gray: #e9e9e9;
 }
 
+aside {
+  padding: 50px;
+  text-align: left;
+}
+
 body {
   margin: 0;
   background: var(--background);
@@ -33,9 +43,16 @@ body {
 
 h1 {
   text-align: center;
+}
+
+h1, aside {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: var(--blue);
 }
 
 #app {
