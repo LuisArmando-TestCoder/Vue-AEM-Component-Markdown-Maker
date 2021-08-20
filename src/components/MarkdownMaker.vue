@@ -196,10 +196,6 @@ main {
   padding: 50px;
 }
 
-h1 {
-  text-align: center;
-}
-
 h3 {
   margin: 40px 0 0;
 }
