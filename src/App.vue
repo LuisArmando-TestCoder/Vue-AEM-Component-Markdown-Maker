@@ -4,7 +4,7 @@
 </template>
 
 <script>
-import MarkdownMaker from './components/MarkdownMaker.vue'
+import MarkdownMaker from './components/MarkdownMaker/index.vue'
 
 export default {
   name: 'App',
